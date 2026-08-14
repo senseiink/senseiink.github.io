@@ -1,0 +1,451 @@
+<!--
+  Abani Ikenna — Personal Portfolio
+  Offensive security, SOC analysis, and custom Python tooling.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+
+  <title>
+    Abani Ikenna | Penetration Tester, Security Researcher & Python Developer
+  </title>
+
+  <meta name="description" content="Portfolio of Abani Ikenna, a Penetration Tester, Security Researcher and Python Developer focused on offensive security, SOC analysis and web application testing.">
+  <meta name="keywords" content="Abani Ikenna, penetration tester, security researcher, python developer, offensive security, web application security, SOC analyst, threat hunting" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#top" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#writeups" class="nav__link">Writeups</a></li>
+          <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <!-- TEMPORARY PREVIEW: availability badge (remove to revert) -->
+        <span class="availability-badge"><span class="availability-badge__dot"></span> Open to work & freelance</span>
+        <h1 class="heading-primary">
+          <span>Abani Ikenna</span>
+        </h1>
+        <!-- TEMPORARY PREVIEW: roles shown side by side (remove to revert). Original tagline:
+             <p class="header__tagline">A Penetration Tester, Security Researcher And Python Developer</p> -->
+        <p class="header__tagline">A <span class="role-rotator">CEH-Certified Penetration Tester</span>, <span class="role-rotator">Security Researcher</span> &amp; <span class="role-rotator">Python Developer</span></p>
+        <p class="header__about">
+          A Certified Ethical Hacker (CEH) with hands-on experience as a
+          Security Operations Center Analyst at NIBOX—monitoring security
+          events, triaging and investigating alerts, and helping harden
+          systems. A Computer Science graduate, I approach security with an
+          adversary mindset, building custom Python tools for subdomain
+          enumeration, port scanning, and web vulnerability analysis. My work
+          spans practical lab environments, TryHackMe challenge walkthroughs,
+          and custom-built detection utilities, and I combine offensive
+          technique with the defensive insight gained in the SOC to identify
+          security gaps before they can be exploited.
+        </p>
+        <div class="header__actions">
+          <a href="#contact" class="btn btn--red">Get in touch</a>
+          <!-- Re-add a resume button here once you have a resume PDF, e.g.
+               <a href="./files/resume.pdf" download class="btn">My Resume</a> -->
+        </div>
+        <ul class="header__socials">
+          <li class="header__socials-item">
+            <a href="https://github.com/senseiink" title="Link to Github Profile">
+              <img src="./images/github.svg" class="header__socials-image" alt="Github">
+            </a>
+          </li>
+          <li class="header__socials-item">
+            <a href="https://www.linkedin.com/in/ikennaabani-pentester/" title="Link to Linkedin Profile">
+              <img src="./images/linkedin.svg" class="header__socials-image" alt="Linkedin">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img src="./images/profile.png" class="header__photo" alt="Abani Ikenna">
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <p class="skills__intro">
+          Refined through CEH-certified hands-on testing and nearly two years
+          of Security Operations Center work at NIBOX—spanning penetration
+          testing, security monitoring, and custom security tooling.
+        </p>
+
+        <div class="skills__grid">
+
+          <div class="skills__card">
+            <h3 class="skills__category">
+              <span class="skills__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="1" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="23"/><line x1="1" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="23" y2="12"/></svg>
+              </span>
+              Offensive Security
+            </h3>
+            <ul class="skills__list">
+              <li class="skills__item">Penetration Testing</li>
+              <li class="skills__item">Network Reconnaissance</li>
+              <li class="skills__item">Port Scanning</li>
+              <li class="skills__item">Nmap</li>
+              <li class="skills__item">Subdomain Enumeration</li>
+              <li class="skills__item">Web Application Testing</li>
+              <li class="skills__item">Burp Suite</li>
+              <li class="skills__item">OWASP ZAP</li>
+              <li class="skills__item">SQLMap</li>
+              <li class="skills__item">URL Obfuscation Detection</li>
+              <li class="skills__item">Vulnerability Analysis</li>
+              <li class="skills__item">Certified Ethical Hacker (CEH)</li>
+            </ul>
+          </div>
+
+          <div class="skills__card">
+            <h3 class="skills__category">
+              <span class="skills__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5V11c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V5.5L12 2z"/><path d="M8.5 11.5l2.5 2.5 4.5-4.5"/></svg>
+              </span>
+              Defensive Security &amp; SOC
+            </h3>
+            <ul class="skills__list">
+              <li class="skills__item">SOC Analysis</li>
+              <li class="skills__item">Incident Triage &amp; Response</li>
+              <li class="skills__item">Threat Hunting</li>
+              <li class="skills__item">Log Analysis</li>
+              <li class="skills__item">Detection Engineering</li>
+              <li class="skills__item">SIEM / XDR (Wazuh)</li>
+              <li class="skills__item">Network Monitoring (Security Onion)</li>
+            </ul>
+          </div>
+
+          <div class="skills__card">
+            <h3 class="skills__category">
+              <span class="skills__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 3 12 8 18"/><polyline points="16 6 21 12 16 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+              </span>
+              Development &amp; Automation
+            </h3>
+            <ul class="skills__list">
+              <li class="skills__item">Python</li>
+              <li class="skills__item">Flask</li>
+              <li class="skills__item">Bash / Shell Scripting</li>
+              <li class="skills__item">Scapy</li>
+              <li class="skills__item">Git &amp; GitHub</li>
+              <li class="skills__item">Automation</li>
+            </ul>
+          </div>
+
+          <div class="skills__card">
+            <h3 class="skills__category">
+              <span class="skills__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="1.5"/><rect x="3" y="14" width="18" height="7" rx="1.5"/><line x1="7" y1="6.5" x2="7" y2="6.5"/><line x1="7" y1="17.5" x2="7" y2="17.5"/></svg>
+              </span>
+              Infrastructure &amp; Platforms
+            </h3>
+            <ul class="skills__list">
+              <li class="skills__item">Kali Linux</li>
+              <li class="skills__item">Active Directory</li>
+              <li class="skills__item">Docker</li>
+              <li class="skills__item">TryHackMe Labs</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Projects ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <div class="work__page">
+
+          <article class="work__card">
+            <div class="work__card-header">
+              <span class="work__monogram" aria-hidden="true">P</span>
+              <div class="work__card-title">
+                <span class="work__index">01</span>
+                <h3>PacketProbe</h3>
+                <p class="work__tagline">Network Traffic Analyzer</p>
+              </div>
+              <a class="work__github" href="https://github.com/senseiink/packetprobe" title="View source on GitHub" target="_blank">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </div>
+            <p class="work__description">
+              A real-time network traffic analyzer built with Scapy that
+              captures live traffic, breaks sessions down by protocol and
+              endpoint, and exports CSV, JSON, and PCAP.
+            </p>
+            <ul class="work__list">
+              <li>Python</li>
+              <li>Scapy</li>
+              <li>Traffic Analysis</li>
+              <li>CSV / JSON / PCAP</li>
+            </ul>
+            <a class="work__cta" href="https://github.com/senseiink/packetprobe" target="_blank">
+              View Project <span>&rarr;</span>
+            </a>
+          </article>
+
+          <article class="work__card">
+            <div class="work__card-header">
+              <span class="work__monogram" aria-hidden="true">D</span>
+              <div class="work__card-title">
+                <span class="work__index">02</span>
+                <h3>DnsDive</h3>
+                <p class="work__tagline">Subdomain Enumerator</p>
+              </div>
+              <a class="work__github" href="https://github.com/senseiink/dnsdive" title="View source on GitHub" target="_blank">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </div>
+            <p class="work__description">
+              A subdomain enumerator that combines wordlist brute-force with
+              certificate transparency and OSINT sources to find live
+              subdomains.
+            </p>
+            <ul class="work__list">
+              <li>Python</li>
+              <li>DNS</li>
+              <li>OSINT</li>
+              <li>Concurrency</li>
+            </ul>
+            <a class="work__cta" href="https://github.com/senseiink/dnsdive" target="_blank">
+              View Project <span>&rarr;</span>
+            </a>
+          </article>
+
+          </div>
+
+          <div class="work__page">
+
+          <article class="work__card">
+            <div class="work__card-header">
+              <span class="work__monogram" aria-hidden="true">P</span>
+              <div class="work__card-title">
+                <span class="work__index">03</span>
+                <h3>PortSweep</h3>
+                <p class="work__tagline">TCP Port Scanner</p>
+              </div>
+              <a class="work__github" href="https://github.com/senseiink/portsweep" title="View source on GitHub" target="_blank">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </div>
+            <p class="work__description">
+              A fast, dependency-free TCP port scanner that performs concurrent
+              scans, identifies services, grabs banners, and sweeps subnets for
+              live hosts.
+            </p>
+            <ul class="work__list">
+              <li>Python</li>
+              <li>Sockets</li>
+              <li>Concurrency</li>
+              <li>Host Discovery</li>
+            </ul>
+            <a class="work__cta" href="https://github.com/senseiink/portsweep" target="_blank">
+              View Project <span>&rarr;</span>
+            </a>
+          </article>
+
+          <article class="work__card">
+            <div class="work__card-header">
+              <span class="work__monogram" aria-hidden="true">B</span>
+              <div class="work__card-title">
+                <span class="work__index">04</span>
+                <h3>BugsEye</h3>
+                <p class="work__tagline">Web Vulnerability Scanner</p>
+              </div>
+              <a class="work__github" href="https://github.com/senseiink/bugseye" title="View source on GitHub" target="_blank">
+                <img src="./images/github.svg" alt="GitHub">
+              </a>
+            </div>
+            <p class="work__description">
+              A web vulnerability scanner that checks security headers, cookie
+              flags, sensitive files, reflected XSS, SQL injection, and path
+              traversal.
+            </p>
+            <ul class="work__list">
+              <li>Python</li>
+              <li>OWASP</li>
+              <li>Headers</li>
+              <li>XSS / SQLi</li>
+            </ul>
+            <a class="work__cta" href="https://github.com/senseiink/bugseye" target="_blank">
+              View Project <span>&rarr;</span>
+            </a>
+          </article>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Writeups & Blog ***** -->
+
+    <section class="writeups" id="writeups">
+      <div class="row">
+        <h2>Writeups & Blog</h2>
+        <p class="writeups__intro">
+          Writeups on challenges I've tackled, tools I've built, and techniques
+          I pick up along the way.
+        </p>
+        <!-- Writeups are published on Medium; add a
+             <li class="writeups__item"> card here (like the projects section)
+             when you want to feature an individual article. -->
+        <ul class="writeups__list">
+          <li class="writeups__empty">
+            <span class="writeups__empty-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/>
+              </svg>
+            </span>
+            <h3>My writeups are on Medium</h3>
+            <p>
+              Walkthroughs of TryHackMe challenges, the security tools I've
+              built, and techniques I pick up along the way—all published on
+              Medium.
+            </p>
+            <a class="btn btn--red" href="https://medium.com/@senseiink" target="_blank" rel="noopener">Read on Medium <span>&rarr;</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <!-- ***** Certifications & Learning ***** -->
+
+  <section class="certifications" id="certifications">
+    <div class="row">
+      <h2>Certifications & Learning</h2>
+      <p class="certifications__intro">
+        Continuous skill-building through hands-on platforms and practical labs.
+      </p>
+      <ul class="certifications__list">
+        <li class="certifications__item">
+          <span class="certifications__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="5"/>
+              <path d="M8.5 12.5L7 22l5-3 5 3-1.5-9.5"/>
+            </svg>
+          </span>
+          <div class="certifications__body">
+            <h3>Certified Ethical Hacker (CEH)</h3>
+            <p class="certifications__issuer">EC-Council</p>
+            <ul class="certifications__details">
+              <li>Issued Jul 2026 &middot; Expires Aug 2029</li>
+              <li>Credential ID: ECC3941576280</li>
+            </ul>
+          </div>
+          <a class="certifications__link" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&amp;a=Glbg69epVVBguxUlBm4XXk738y/NbHCXtyiPP4VZ0V4=" target="_blank" rel="noopener">
+            Show credential <span>&rarr;</span>
+          </a>
+        </li>
+        <li class="certifications__item">
+          <span class="certifications__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 21h8"/>
+              <path d="M12 17v4"/>
+              <path d="M7 4h10v6a5 5 0 0 1-10 0V4z"/>
+              <path d="M7 6H4v1a3 3 0 0 0 3 3"/>
+              <path d="M17 6h3v1a3 3 0 0 1-3 3"/>
+            </svg>
+          </span>
+          <div class="certifications__body">
+            <h3>Cyber Security 101 Certificate</h3>
+            <p class="certifications__issuer">TryHackMe</p>
+            <ul class="certifications__details">
+              <li>Issued Jul 2026 &middot; Expires Jul 2029</li>
+              <li>Credential ID: THM-ZMBKZENIMN</li>
+            </ul>
+          </div>
+          <a class="certifications__link" href="https://tryhackme.com/certificate/THM-ZMBKZENIMN" target="_blank" rel="noopener">
+            Show credential <span>&rarr;</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Let's Work Together</h2>
+      <div class="contact__info">
+        <p>
+          Whether you're looking to hire a full-time cybersecurity analyst,
+          collaborate on a high-growth startup, or need freelance support—from
+          penetration testing and security assessments to custom Python
+          tooling—I'd love to connect.
+        </p>
+        <p>
+          Have a project in mind, an open role, or just want to discuss threat
+          intelligence and offensive security? Drop me a message, and I'll get
+          back to you promptly.
+        </p>
+        <!-- Email is kept hidden; the button opens a mailto link directly -->
+        <button id="email-reveal" class="btn" type="button">Send a mail</button>
+        <a href="https://www.linkedin.com/in/ikennaabani-pentester/" class="btn" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Social links — GitHub & LinkedIn -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/senseiink" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/ikennaabani-pentester/" title="Link to Linkedin Profile">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2026 Abani Ikenna. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
